@@ -45,41 +45,6 @@ const Header = () => {
             Model Y
           </li>
           </Link>
-          <Link to={"/solarroof"} >
-          <li className={`mx-3 py-1 duration-500 px-3 py-2 font-${mode===1?'bold':'medium'} text-base hover:py-2 hover:rounded-md hover:backdrop-sepia-0 hover:bg-black/10`}>
-            Solar Roof
-          </li>
-          </Link>
-          <Link to={"/solarPanel"} >
-          <li className={`mx-3 py-1 duration-500 px-3 py-2 font-${mode===1?'bold':'medium'} text-base hover:py-2 hover:rounded-md hover:backdrop-sepia-0 hover:bg-black/10`}>
-            Solar Panel
-          </li>
-          </Link>
-          <Link to={"/powerWall"} >
-          <li className={`mx-3 py-1 duration-500 px-3 py-2 font-${mode===1?'bold':'medium'} text-base hover:py-2 hover:rounded-md hover:backdrop-sepia-0 hover:bg-black/10`}>
-            Powerwall
-          </li>
-          </Link>
-        </ul>
-      </div>
-
-      <div className="nav-Right">
-        <ul className="flex">
-          <Link to={"/shop"} >
-          <li className={`mx-3 py-1 duration-500 px-3 py-2 font-${mode===1?'bold':'medium'} text-base hover:py-2 hover:rounded-md hover:backdrop-sepia-0 hover:bg-black/10`}>
-            Shop
-          </li>
-          </Link>
-          <Link to={"/account"} >
-          <li className={`mx-3 py-1 duration-500 px-3 py-2 font-${mode===1?'bold':'medium'} text-base hover:py-2 hover:rounded-md hover:backdrop-sepia-0 hover:bg-black/10`}>
-            Account
-          </li>
-          </Link>
-          <Link to={"/menu"} >
-          <li className={`mx-3 py-1 duration-500 px-3 py-2 font-${mode===1?'bold':'medium'} text-base hover:py-2 hover:rounded-md hover:backdrop-sepia-0 hover:bg-black/10`}>
-            Menu
-          </li>
-          </Link>
         </ul>
       </div>
     </div>
