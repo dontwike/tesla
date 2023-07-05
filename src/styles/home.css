@@ -1,0 +1,43 @@
+.Roadster {
+    background-image: url("../assets/Roadster/hero.jpg");
+    background-position: center;
+  }
+  .modelS{
+    background-image: url("../assets/Model-S-homepage-desktop.avif");
+    background-position: center;
+  }
+  .model3{
+    background-image: url("../assets/Model-3-Main-Hero-Desktop-LHD.jpg");
+    background-position: center;
+  }
+  .modelY{
+    background-image: url("../assets/Homepage-Model-Y-Global-Desktop.avif");
+    background-position: center;
+  }
+  .modelX{
+    background-position: center;
+    background-image: url("../assets/Homepage-Model-X-Desktop-LHD.avif");
+  }
+  .solarPanels{
+    background-image: url("../assets/425_Hero_D_001.jpg");
+    background-position: center;
+  }
+  .solarRoof{
+    background-image: url("../assets/Homepage-SolarRoof-Desktop-Global.avif");
+    background-position: center;
+  }
+  .accessories{
+    background-image: url("../assets/Desktop_Accessories.avif");
+    background-position: center;
+  }
+ 
+  .highlighted-specs{
+    padding-top: 25%;
+  }
+  
+  .content{
+    padding-top: 2%;
+    scroll-snap-align: start;
+    scroll-snap-stop: always;
+  }
+
